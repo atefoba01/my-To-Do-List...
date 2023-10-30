@@ -39,3 +39,39 @@ button {
   border: none;
   cursor: pointer;
 }
+
+/* Style for the task list items */
+#taskList li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style for the task text */
+#taskList li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+/* Style for the "Edit" button */
+#taskList li button.edit {
+  background-color: #06c46b;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Style for the "Delete" button */
+#taskList li button.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
